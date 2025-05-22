@@ -1,0 +1,21 @@
+{
+  "name": "policy",
+  "version": "1.0.0",
+  "description": "policy assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Arunlal",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0",
+    "multer": "^2.0.0",
+    "node-cron": "^4.0.5",
+    "os-utils": "^0.0.14",
+    "xlsx": "^0.18.5"
+  }
+}
